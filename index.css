@@ -21,45 +21,50 @@ body{
  justify-content: center;
 }
 
-.contenedor-all .tarjeta-lados{
+.contenedor-all .tarjeta-ladoizquierda{
+  left: 5%;
+  top: 10%;
+  position: relative;
   background-color: white;
   width: 230px;
   height: 330px;
   border-radius: 8px;
   overflow:hidden;
   text-align: center;
-  border: 3px rgb(0,0,0) solid;
+  border: 1px rgb(85,85,85) solid;
 }
 
-.contenedor-all .tarjeta-lados img{
+.contenedor-all .tarjeta-ladoizquierda img{
     width:100px;
     height:100px;
     border-radius:70px;
 }
-.contenedor-all .tarjeta-lados h1{
+.contenedor-all .tarjeta-ladoizquierda h1{
   font-family: 'century gothic';
   color: #BD36CA;
 }
 
-.contenedor-all .tarjeta-lados p{
+.contenedor-all .tarjeta-ladoizquierda p{
   font-family: 'century gothic';
   text-align:center;
   font-size:10px;
 }
-.contenedor-all .tarjeta-lados h2{
+.contenedor-all .tarjeta-ladoizquierda h2{
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
   font-size:40px;
 }
 .contenedor-all .tarjeta-medio{
+  top: 6%;
+  position: relative;
   background-color: white;
   width: 230px;
   height: 360px;
   border-radius: 8px;
   overflow:hidden;
   text-align: center;
-  border: 3px rgb(0,0,0) solid;
+  border: 1px rgb(85,85,85) solid;
 }
 
 .contenedor-all .tarjeta-medio img{
@@ -78,6 +83,40 @@ body{
   font-size:10px;
 }
 .contenedor-all .tarjeta-medio h2{
+  font-family: 'century gothic';
+  text-align:center;
+  color: #BD36CA;
+  font-size:40px;
+}
+.contenedor-all .tarjeta-ladoderecha{
+  right: 5%;
+  top: 10%;
+  position: relative;
+  background-color: white;
+  width: 230px;
+  height: 330px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+  border: 1px rgb(85,85,85) solid;
+}
+
+.contenedor-all .tarjeta-ladoderecha img{
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
+.contenedor-all .tarjeta-ladoderecha h1{
+  font-family: 'century gothic';
+  color: #BD36CA;
+}
+
+.contenedor-all .tarjeta-ladoderecha p{
+  font-family: 'century gothic';
+  text-align:center;
+  font-size:10px;
+}
+.contenedor-all .tarjeta-ladoderecha h2{
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
