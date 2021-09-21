@@ -21,8 +21,7 @@ body{
  justify-content: center;
 }
 
-.contenedor-all .tarjeta-ladoizquierda{
-  left: 5%;
+.contenedor-all .tarjeta-lados{
   top: 10%;
   position: relative;
   background-color: white;
@@ -34,22 +33,22 @@ body{
   border: 1px rgb(85,85,85) solid;
 }
 
-.contenedor-all .tarjeta-ladoizquierda img{
+.contenedor-all .tarjeta-lados img{
     width:100px;
     height:100px;
     border-radius:70px;
 }
-.contenedor-all .tarjeta-ladoizquierda h1{
+.contenedor-all .tarjeta-lados h1{
   font-family: 'century gothic';
   color: #BD36CA;
 }
 
-.contenedor-all .tarjeta-ladoizquierda p{
+.contenedor-all .tarjeta-lados p{
   font-family: 'century gothic';
   text-align:center;
   font-size:10px;
 }
-.contenedor-all .tarjeta-ladoizquierda h2{
+.contenedor-all .tarjeta-lados h2{
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
@@ -65,6 +64,7 @@ body{
   overflow:hidden;
   text-align: center;
   border: 1px rgb(85,85,85) solid;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
 .contenedor-all .tarjeta-medio img{
@@ -83,40 +83,6 @@ body{
   font-size:10px;
 }
 .contenedor-all .tarjeta-medio h2{
-  font-family: 'century gothic';
-  text-align:center;
-  color: #BD36CA;
-  font-size:40px;
-}
-.contenedor-all .tarjeta-ladoderecha{
-  right: 5%;
-  top: 10%;
-  position: relative;
-  background-color: white;
-  width: 230px;
-  height: 330px;
-  border-radius: 8px;
-  overflow:hidden;
-  text-align: center;
-  border: 1px rgb(85,85,85) solid;
-}
-
-.contenedor-all .tarjeta-ladoderecha img{
-    width:100px;
-    height:100px;
-    border-radius:70px;
-}
-.contenedor-all .tarjeta-ladoderecha h1{
-  font-family: 'century gothic';
-  color: #BD36CA;
-}
-
-.contenedor-all .tarjeta-ladoderecha p{
-  font-family: 'century gothic';
-  text-align:center;
-  font-size:10px;
-}
-.contenedor-all .tarjeta-ladoderecha h2{
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
