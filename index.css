@@ -16,6 +16,9 @@ body{
  position:absolute;
  left:9%;
  top:12%;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content: center;
 }
 
 .contenedor-all .tarjeta-lados{
@@ -44,6 +47,37 @@ body{
   font-size:10px;
 }
 .contenedor-all .tarjeta-lados h2{
+  font-family: 'century gothic';
+  text-align:center;
+  color: #BD36CA;
+  font-size:40px;
+}
+.contenedor-all .tarjeta-medio{
+  background-color: white;
+  width: 230px;
+  height: 360px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+  border: 3px rgb(0,0,0) solid;
+}
+
+.contenedor-all .tarjeta-medio img{
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
+.contenedor-all .tarjeta-medio h1{
+  font-family: 'century gothic';
+  color: #BD36CA;
+}
+
+.contenedor-all .tarjeta-medio p{
+  font-family: 'century gothic';
+  text-align:center;
+  font-size:10px;
+}
+.contenedor-all .tarjeta-medio h2{
   font-family: 'century gothic';
   text-align:center;
   color: #BD36CA;
