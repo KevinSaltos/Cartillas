@@ -1,7 +1,37 @@
 body{
   background: linear-gradient(#D098F0, #9C3AD3);
   background-repeat:no-repeat;
-
+  background-size:100%;
 }
-
-ADASD
+main{
+  background: linear-gradient(#D098F0, #9C3AD3);
+}
+.contendor-all{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.contendor-all .card0{
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+}
+.contendor-all .card{
+  width: 330px;
+  height: 530px;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.contendor-all .card0 img{
+  width: 330px;
+}
+.contendor-all .card img{
+  width: 330px;
+}
