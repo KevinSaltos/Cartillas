@@ -17,3 +17,18 @@ body{
  left:9%;
  top:12%;
 }
+
+.contenedor-all .tarjeta-lados{
+  background-color: white;
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  overflow:hidden;
+  text-align: center;
+}
+
+.contenedor-all .tarjeta-lados img{
+    width:100px;
+    height:100px;
+    border-radius:70px;
+}
