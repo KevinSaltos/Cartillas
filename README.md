@@ -1,2 +1,2 @@
-# Css
-Css practicas
+# Cartillas
+Css exercise
